@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- Nav for Prediction Page only -->
+
+  <div class="matchday-links">
+    <a href="{% url 'predictions:about'     %}" class="nav-button">About the App</a>
+  </div>
+
+  <h1 class="title">2025 WOMEN'S EURO PREDICTIONS</h1>
+  <div class="matchday-links">
+  {% for md in matchdays %}
+    <p class="link"><a href="{% url 'predictions:create' md.id %}"
+       class="{% if md.id == matchday.id %}active{% endif %}">
+      {{ md.name }}
+    </a></p>
+  {% endfor %}
+</div>
+          <h2 class="matchday-name">
+    {{ matchday.name }}
+    {% if first_kickoff %}
+      <div id="countdown" data-kickoff="{{ first_kickoff|date:"c" }}"></div>
+    {% endif %}
+  </h2>
+{% if existing %}
+  <div class="alert">
+    You already submitted picks for this Matchday. You can edit them below:
+  </div>
+{% endif %}
+
+  <form method="post">
+    {% csrf_token %}
+
+    {# This is critical for formset POST to work #}
+    {{ formset.management_form }}
+
+    <!-- Section 1: How to Play & Header Forms -->
+    <div class="grid-2 section1">
+      <div class="card how-to-play">
+        <h3>HOW TO PLAY</h3>
+<p>1. Predict the score for each match.</p>
+<p>2. (Optional) Pick your Player of the Matchday.</p>
+<p>3. (Optional) Pick your favorite team.</p>
+<p>4. Share your ticket and challenge friends!</p>
+      </div>
+      <div class="form-cards dropdown-cards">
+        <div class="card">
+          {{ form.potm_team.label_tag }}
+          {{ form.potm_team }}
+          {{ form.potm_team.errors }}
+        </div>
+        <div class="card">
+          {{ form.potm.label_tag }}
+          {{ form.potm }}
+          {{ form.potm.errors }}
+        </div>
+        <div class="card">
+          {{ form.favorite_team.label_tag }}
+          {{ form.favorite_team }}
+          {{ form.favorite_team.errors }}
+        </div>
+      </div>
+    </div>
+    <!-- Section 2: Match Cards -->
+    <div class="grid-2 section2">
+      {% for match, pick_form in pairs %}
+        <div class="card match-card" data-index="{{ forloop.counter0 }}">
+          <div class="match-info">
+            <span class="match-day">{{ match.day_of_week }}, {{ match.kickoff_time|date:"M j - H:i" }}</span>
+            <span class="match-venue">{{ match.venue }}</span>
+          </div>
+          <div class="teams">
+            <div class="team home">
+              <img
+                src="{% static 'flags/' %}{{ match.home.fifa_code }}.png"
+                alt="{{ match.home.name }} flag"
+                class="team-flag"
+              >
+              <span class="team-code">{{ match.home.fifa_code }}</span>
+            </div>
+            <span class="score-separator">–</span>
+            <div class="team away">
+              <img
+                src="{% static 'flags/' %}{{ match.away.fifa_code }}.png"
+                alt="{{ match.away.name }} flag"
+                class="team-flag"
+              >
+              <span class="team-code">{{ match.away.fifa_code }}</span>
+            </div>
+          </div>
+          <div class="inputs">
+            {{ pick_form.predicted_home_score }}
+            {{ pick_form.predicted_away_score }}
+          </div>
+        </div>
+          {% empty %}
+    <h1 class="italic">No fixtures provided for this round yet. Come back another time!</h1>
+      {% endfor %}
+    </div>
+
+    <button type="submit" class="submit-button">Submit</button>
+  </form>
+{% endblock %}

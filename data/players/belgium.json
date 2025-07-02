@@ -1,0 +1,28 @@
+[
+  { "name": "Evrard",        "position": "Goalkeeper", "team_code": "BEL" },
+  { "name": "Bastiaen",      "position": "Goalkeeper", "team_code": "BEL" },
+  { "name": "Lichtfus",      "position": "Goalkeeper", "team_code": "BEL" },
+
+  { "name": "Philtjens",     "position": "Defender",   "team_code": "BEL" },
+  { "name": "De Caigny",     "position": "Defender",   "team_code": "BEL" },
+  { "name": "Cayman",        "position": "Defender",   "team_code": "BEL" },
+  { "name": "Mertens",       "position": "Defender",   "team_code": "BEL" },
+  { "name": "Iliano",        "position": "Defender",   "team_code": "BEL" },
+  { "name": "Kees",          "position": "Defender",   "team_code": "BEL" },
+  { "name": "Deloose",       "position": "Defender",   "team_code": "BEL" },
+
+  { "name": "Tysiak",        "position": "Midfielder", "team_code": "BEL" },
+  { "name": "Teulings",      "position": "Midfielder", "team_code": "BEL" },
+  { "name": "Vanhaevermaet", "position": "Midfielder", "team_code": "BEL" },
+  { "name": "Toloba",        "position": "Midfielder", "team_code": "BEL" },
+  { "name": "Detruyer",      "position": "Midfielder", "team_code": "BEL" },
+  { "name": "Missipo",       "position": "Midfielder", "team_code": "BEL" },
+
+  { "name": "Van Kerkhoven", "position": "Forward",    "team_code": "BEL" },
+  { "name": "Wijnants",      "position": "Forward",    "team_code": "BEL" },
+  { "name": "Eurlings",      "position": "Forward",    "team_code": "BEL" },
+  { "name": "Wullaert",      "position": "Forward",    "team_code": "BEL" },
+  { "name": "Dhont",         "position": "Forward",    "team_code": "BEL" },
+  { "name": "Blom",          "position": "Forward",    "team_code": "BEL" },
+  { "name": "Janssens",      "position": "Forward",    "team_code": "BEL" }
+]

@@ -1,0 +1,28 @@
+[
+  { "name": "Holmgren",         "position": "Goalkeeper", "team_code": "SWE" },
+  { "name": "Falk",             "position": "Goalkeeper", "team_code": "SWE" },
+  { "name": "Enblom",           "position": "Goalkeeper", "team_code": "SWE" },
+
+  { "name": "J. Andersson",     "position": "Defender",   "team_code": "SWE" },
+  { "name": "Sembrant",         "position": "Defender",   "team_code": "SWE" },
+  { "name": "Lundkvist",        "position": "Defender",   "team_code": "SWE" },
+  { "name": "Nildén",           "position": "Defender",   "team_code": "SWE" },
+  { "name": "Eriksson",         "position": "Defender",   "team_code": "SWE" },
+  { "name": "Ilestedt",         "position": "Defender",   "team_code": "SWE" },
+  { "name": "Björn",            "position": "Defender",   "team_code": "SWE" },
+  { "name": "Holmberg",         "position": "Defender",   "team_code": "SWE" },
+
+  { "name": "Janogy",           "position": "Midfielder", "team_code": "SWE" },
+  { "name": "Jakobsson",        "position": "Midfielder", "team_code": "SWE" },
+  { "name": "Zigiotti Olme",    "position": "Midfielder", "team_code": "SWE" },
+  { "name": "Angeldahl",        "position": "Midfielder", "team_code": "SWE" },
+  { "name": "Bennison",         "position": "Midfielder", "team_code": "SWE" },
+
+  { "name": "Hurtig",           "position": "Forward",    "team_code": "SWE" },
+  { "name": "Asllani",          "position": "Forward",    "team_code": "SWE" },
+  { "name": "Blackstenius",     "position": "Forward",    "team_code": "SWE" },
+  { "name": "Wangerheim",       "position": "Forward",    "team_code": "SWE" },
+  { "name": "Rolfö",            "position": "Forward",    "team_code": "SWE" },
+  { "name": "Rytting Kaneryd",  "position": "Forward",    "team_code": "SWE" },
+  { "name": "Blomqvist",        "position": "Forward",    "team_code": "SWE" }
+]

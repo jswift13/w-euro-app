@@ -1,0 +1,28 @@
+[
+  { "name": "Sullastres",      "position": "Goalkeeper", "team_code": "ESP" },
+  { "name": "Cata Coll",       "position": "Goalkeeper", "team_code": "ESP" },
+  { "name": "Nanclares",       "position": "Goalkeeper", "team_code": "ESP" },
+
+  { "name": "O. Batlle",       "position": "Defender",   "team_code": "ESP" },
+  { "name": "Fernàndez",       "position": "Defender",   "team_code": "ESP" },
+  { "name": "Paredes",         "position": "Defender",   "team_code": "ESP" },
+  { "name": "Méndez",          "position": "Defender",   "team_code": "ESP" },
+  { "name": "Olga",            "position": "Defender",   "team_code": "ESP" },
+  { "name": "Aleixandri",      "position": "Defender",   "team_code": "ESP" },
+  { "name": "Ouahabi",         "position": "Defender",   "team_code": "ESP" },
+
+  { "name": "Bonmatí",         "position": "Midfielder", "team_code": "ESP" },
+  { "name": "Mariona",         "position": "Midfielder", "team_code": "ESP" },
+  { "name": "Alexia",          "position": "Midfielder", "team_code": "ESP" },
+  { "name": "Patri",           "position": "Midfielder", "team_code": "ESP" },
+  { "name": "Vicky",           "position": "Midfielder", "team_code": "ESP" },
+  { "name": "M. Zubieta",      "position": "Midfielder", "team_code": "ESP" },
+
+  { "name": "Esther González", "position": "Forward",    "team_code": "ESP" },
+  { "name": "Athenea",         "position": "Forward",    "team_code": "ESP" },
+  { "name": "Martin-Prieto",   "position": "Forward",    "team_code": "ESP" },
+  { "name": "L. García",       "position": "Forward",    "team_code": "ESP" },
+  { "name": "Paralluelo",      "position": "Forward",    "team_code": "ESP" },
+  { "name": "Pina",            "position": "Forward",    "team_code": "ESP" },
+  { "name": "Redondo",         "position": "Forward",    "team_code": "ESP" }
+]

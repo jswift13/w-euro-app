@@ -1,0 +1,28 @@
+[
+  { "name": "Inês Pereira",       "position": "Goalkeeper", "team_code": "POR" },
+  { "name": "Patricia Morais",    "position": "Goalkeeper", "team_code": "POR" },
+  { "name": "Cota-Yarde",         "position": "Goalkeeper", "team_code": "POR" },
+
+  { "name": "Catarina Amado",     "position": "Defender",   "team_code": "POR" },
+  { "name": "Lucia Alves",        "position": "Defender",   "team_code": "POR" },
+  { "name": "Ana Seiça",          "position": "Defender",   "team_code": "POR" },
+  { "name": "Joana Marchão",      "position": "Defender",   "team_code": "POR" },
+  { "name": "Ana Borges",         "position": "Defender",   "team_code": "POR" },
+  { "name": "Carole Costa",       "position": "Defender",   "team_code": "POR" },
+  { "name": "Carolina Correia",   "position": "Defender",   "team_code": "POR" },
+  { "name": "Diana Gomes",        "position": "Defender",   "team_code": "POR" },
+
+  { "name": "Andreia Jacinto",    "position": "Midfielder", "team_code": "POR" },
+  { "name": "Andreia Norton",     "position": "Midfielder", "team_code": "POR" },
+  { "name": "Tatiana Pinto",      "position": "Midfielder", "team_code": "POR" },
+  { "name": "Fátima Pinto",       "position": "Midfielder", "team_code": "POR" },
+  { "name": "Dolores Silva",      "position": "Midfielder", "team_code": "POR" },
+  { "name": "Andreia Faria",      "position": "Midfielder", "team_code": "POR" },
+  { "name": "Ana Capeta",         "position": "Midfielder", "team_code": "POR" },
+
+  { "name": "Francisca Nazareth", "position": "Forward",    "team_code": "POR" },
+  { "name": "Jéssica Silva",      "position": "Forward",    "team_code": "POR" },
+  { "name": "Diana Silva",        "position": "Forward",    "team_code": "POR" },
+  { "name": "Pina Fonseca",       "position": "Forward",    "team_code": "POR" },
+  { "name": "Telma Encarnação",   "position": "Forward",    "team_code": "POR" }
+]

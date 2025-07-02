@@ -1,0 +1,28 @@
+[
+  { "name": "Lerond",           "position": "Goalkeeper", "team_code": "FRA" },
+  { "name": "Peyraud-Magnin",   "position": "Goalkeeper", "team_code": "FRA" },
+  { "name": "Picaud",           "position": "Goalkeeper", "team_code": "FRA" },
+
+  { "name": "Lakrar",           "position": "Defender",   "team_code": "FRA" },
+  { "name": "Samoura",          "position": "Defender",   "team_code": "FRA" },
+  { "name": "Sombath",          "position": "Defender",   "team_code": "FRA" },
+  { "name": "De Almeida",       "position": "Defender",   "team_code": "FRA" },
+  { "name": "Bacha",            "position": "Defender",   "team_code": "FRA" },
+  { "name": "Mbock Bathy",      "position": "Defender",   "team_code": "FRA" },
+  { "name": "N'Dongala",        "position": "Defender",   "team_code": "FRA" },
+  { "name": "Bogaert",          "position": "Defender",   "team_code": "FRA" },
+
+  { "name": "Toletti",          "position": "Midfielder", "team_code": "FRA" },
+  { "name": "Karchaoui",        "position": "Midfielder", "team_code": "FRA" },
+  { "name": "Geyoro",           "position": "Midfielder", "team_code": "FRA" },
+  { "name": "Majri",            "position": "Midfielder", "team_code": "FRA" },
+  { "name": "Baltimore",        "position": "Midfielder", "team_code": "FRA" },
+  { "name": "Jean-François",    "position": "Midfielder", "team_code": "FRA" },
+
+  { "name": "Malard",           "position": "Forward",    "team_code": "FRA" },
+  { "name": "Diani",            "position": "Forward",    "team_code": "FRA" },
+  { "name": "Katoto",           "position": "Forward",    "team_code": "FRA" },
+  { "name": "Mateo",            "position": "Forward",    "team_code": "FRA" },
+  { "name": "Gago",             "position": "Forward",    "team_code": "FRA" },
+  { "name": "D. Cascarino",     "position": "Forward",    "team_code": "FRA" }
+]

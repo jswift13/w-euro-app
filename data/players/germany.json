@@ -1,0 +1,28 @@
+[
+  { "name": "Berger",        "position": "Goalkeeper", "team_code": "GER" },
+  { "name": "Johannes",      "position": "Goalkeeper", "team_code": "GER" },
+  { "name": "Mahmutovic",    "position": "Goalkeeper", "team_code": "GER" },
+
+  { "name": "Linder",        "position": "Defender",   "team_code": "GER" },
+  { "name": "Hendrich",      "position": "Defender",   "team_code": "GER" },
+  { "name": "Knaak",         "position": "Defender",   "team_code": "GER" },
+  { "name": "Gwinn",         "position": "Defender",   "team_code": "GER" },
+  { "name": "Kleinherne",    "position": "Defender",   "team_code": "GER" },
+
+  { "name": "Minge",         "position": "Midfielder", "team_code": "GER" },
+  { "name": "Lohmann",       "position": "Midfielder", "team_code": "GER" },
+  { "name": "Nüsken",        "position": "Midfielder", "team_code": "GER" },
+  { "name": "Däbritz",       "position": "Midfielder", "team_code": "GER" },
+  { "name": "Zicai",         "position": "Midfielder", "team_code": "GER" },
+  { "name": "Dallmann",      "position": "Midfielder", "team_code": "GER" },
+  { "name": "Kett",          "position": "Midfielder", "team_code": "GER" },
+  { "name": "Hoffmann",      "position": "Midfielder", "team_code": "GER" },
+  { "name": "Bühl",          "position": "Midfielder", "team_code": "GER" },
+  { "name": "Senß",          "position": "Midfielder", "team_code": "GER" },
+  { "name": "Brand",         "position": "Midfielder", "team_code": "GER" },
+
+  { "name": "Wamser",        "position": "Forward",    "team_code": "GER" },
+  { "name": "Freigang",      "position": "Forward",    "team_code": "GER" },
+  { "name": "Schüller",      "position": "Forward",    "team_code": "GER" },
+  { "name": "Cerci",         "position": "Forward",    "team_code": "GER" }
+]

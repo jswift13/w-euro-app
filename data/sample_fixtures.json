@@ -1,0 +1,19 @@
+{
+  "matches": [
+    {
+      "home_team_code": "FRA",
+      "home_team_name": "France",
+      "away_team_code": "ENG",
+      "away_team_name": "England",
+      "kickoff_time": "2025-07-05T16:00:00",
+      "matchday_name": "Group Stage – Matchday 1",
+      "matchday_order": 1,
+      "stage": "Group Stage",
+      "round_name": "Matchday 1",
+      "players": [
+        {"name": "Player A", "team_code": "FRA", "position": "Forward"},
+        {"name": "Player B", "team_code": "ENG", "position": "Midfielder"}
+      ]
+    }
+  ]
+}

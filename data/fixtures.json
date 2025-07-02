@@ -1,0 +1,242 @@
+[
+  {
+    "Matchday":1.0,
+    "Day":"Wed",
+    "Date":"2025-07-02",
+    "Time":"18:00",
+    "Home":"Iceland",
+    "Score":null,
+    "Away":"Finland",
+    "Venue":"Stockhorn Arena"
+  },
+  {
+    "Matchday":1.0,
+    "Day":"Wed",
+    "Date":"2025-07-02",
+    "Time":"21:00",
+    "Home":"Switzerland",
+    "Score":null,
+    "Away":"Norway",
+    "Venue":"St. Jakob-Park"
+  },
+  {
+    "Matchday":1.0,
+    "Day":"Thu",
+    "Date":"2025-07-03",
+    "Time":"18:00",
+    "Home":"Belgium",
+    "Score":null,
+    "Away":"Italy",
+    "Venue":"Stade de Tourbillon"
+  },
+  {
+    "Matchday":1.0,
+    "Day":"Thu",
+    "Date":"2025-07-03",
+    "Time":"21:00",
+    "Home":"Spain",
+    "Score":null,
+    "Away":"Portugal",
+    "Venue":"Stadion Wankdorf"
+  },
+  {
+    "Matchday":1.0,
+    "Day":"Fri",
+    "Date":"2025-07-04",
+    "Time":"18:00",
+    "Home":"Denmark",
+    "Score":null,
+    "Away":"Sweden",
+    "Venue":"Stade de Genève"
+  },
+  {
+    "Matchday":1.0,
+    "Day":"Fri",
+    "Date":"2025-07-04",
+    "Time":"21:00",
+    "Home":"Germany",
+    "Score":null,
+    "Away":"Poland",
+    "Venue":"Kybunpark"
+  },
+  {
+    "Matchday":1.0,
+    "Day":"Sat",
+    "Date":"2025-07-05",
+    "Time":"18:00",
+    "Home":"Wales",
+    "Score":null,
+    "Away":"Netherlands",
+    "Venue":"Stadion Allmend"
+  },
+  {
+    "Matchday":1.0,
+    "Day":"Sat",
+    "Date":"2025-07-05",
+    "Time":"21:00",
+    "Home":"France",
+    "Score":null,
+    "Away":"England",
+    "Venue":"Stadion Letzigrund"
+  },
+  {
+    "Matchday":2.0,
+    "Day":"Sun",
+    "Date":"2025-07-06",
+    "Time":"18:00",
+    "Home":"Norway",
+    "Score":null,
+    "Away":"Finland",
+    "Venue":"Stade de Tourbillon"
+  },
+  {
+    "Matchday":2.0,
+    "Day":"Sun",
+    "Date":"2025-07-06",
+    "Time":"21:00",
+    "Home":"Switzerland",
+    "Score":null,
+    "Away":"Iceland",
+    "Venue":"Stadion Wankdorf"
+  },
+  {
+    "Matchday":2.0,
+    "Day":"Mon",
+    "Date":"2025-07-07",
+    "Time":"18:00",
+    "Home":"Spain",
+    "Score":null,
+    "Away":"Belgium",
+    "Venue":"Stockhorn Arena"
+  },
+  {
+    "Matchday":2.0,
+    "Day":"Mon",
+    "Date":"2025-07-07",
+    "Time":"21:00",
+    "Home":"Portugal",
+    "Score":null,
+    "Away":"Italy",
+    "Venue":"Stade de Genève"
+  },
+  {
+    "Matchday":2.0,
+    "Day":"Tue",
+    "Date":"2025-07-08",
+    "Time":"18:00",
+    "Home":"Germany",
+    "Score":null,
+    "Away":"Denmark",
+    "Venue":"St. Jakob-Park"
+  },
+  {
+    "Matchday":2.0,
+    "Day":"Tue",
+    "Date":"2025-07-08",
+    "Time":"21:00",
+    "Home":"Poland",
+    "Score":null,
+    "Away":"Sweden",
+    "Venue":"Stadion Allmend"
+  },
+  {
+    "Matchday":2.0,
+    "Day":"Wed",
+    "Date":"2025-07-09",
+    "Time":"18:00",
+    "Home":"England",
+    "Score":null,
+    "Away":"Netherlands",
+    "Venue":"Stadion Letzigrund"
+  },
+  {
+    "Matchday":2.0,
+    "Day":"Wed",
+    "Date":"2025-07-09",
+    "Time":"21:00",
+    "Home":"France",
+    "Score":null,
+    "Away":"Wales",
+    "Venue":"Kybunpark"
+  },
+  {
+    "Matchday":3.0,
+    "Day":"Thu",
+    "Date":"2025-07-10",
+    "Time":"21:00",
+    "Home":"Norway",
+    "Score":null,
+    "Away":"Iceland",
+    "Venue":"Stockhorn Arena"
+  },
+  {
+    "Matchday":3.0,
+    "Day":"Thu",
+    "Date":"2025-07-10",
+    "Time":"21:00",
+    "Home":"Finland",
+    "Score":null,
+    "Away":"Switzerland",
+    "Venue":"Stade de Genève"
+  },
+  {
+    "Matchday":3.0,
+    "Day":"Fri",
+    "Date":"2025-07-11",
+    "Time":"21:00",
+    "Home":"Italy",
+    "Score":null,
+    "Away":"Spain",
+    "Venue":"Stadion Wankdorf"
+  },
+  {
+    "Matchday":3.0,
+    "Day":"Fri",
+    "Date":"2025-07-11",
+    "Time":"21:00",
+    "Home":"Portugal",
+    "Score":null,
+    "Away":"Belgium",
+    "Venue":"Stade de Tourbillon"
+  },
+  {
+    "Matchday":3.0,
+    "Day":"Sat",
+    "Date":"2025-07-12",
+    "Time":"21:00",
+    "Home":"Poland",
+    "Score":null,
+    "Away":"Denmark",
+    "Venue":"Stadion Allmend"
+  },
+  {
+    "Matchday":3.0,
+    "Day":"Sat",
+    "Date":"2025-07-12",
+    "Time":"21:00",
+    "Home":"Sweden",
+    "Score":null,
+    "Away":"Germany",
+    "Venue":"Stadion Letzigrund"
+  },
+  {
+    "Matchday":3.0,
+    "Day":"Sun",
+    "Date":"2025-07-13",
+    "Time":"21:00",
+    "Home":"Netherlands",
+    "Score":null,
+    "Away":"France",
+    "Venue":"St. Jakob-Park"
+  },
+  {
+    "Matchday":3.0,
+    "Day":"Sun",
+    "Date":"2025-07-13",
+    "Time":"21:00",
+    "Home":"England",
+    "Score":null,
+    "Away":"Wales",
+    "Venue":"Kybunpark"
+  }
+]

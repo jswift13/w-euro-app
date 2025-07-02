@@ -1,0 +1,28 @@
+[
+  { "name": "Giuliani",     "position": "Goalkeeper", "team_code": "ITA" },
+  { "name": "Baldi",        "position": "Goalkeeper", "team_code": "ITA" },
+  { "name": "Durante",      "position": "Goalkeeper", "team_code": "ITA" },
+
+  { "name": "Oliviero",     "position": "Defender",   "team_code": "ITA" },
+  { "name": "Di Guglielmo", "position": "Defender",   "team_code": "ITA" },
+  { "name": "Linari",       "position": "Defender",   "team_code": "ITA" },
+  { "name": "Piga",         "position": "Defender",   "team_code": "ITA" },
+  { "name": "Boattin",      "position": "Defender",   "team_code": "ITA" },
+  { "name": "Lenzini",      "position": "Defender",   "team_code": "ITA" },
+  { "name": "Salvai",       "position": "Defender",   "team_code": "ITA" },
+
+  { "name": "Schatzer",     "position": "Midfielder", "team_code": "ITA" },
+  { "name": "Giugliano",    "position": "Midfielder", "team_code": "ITA" },
+  { "name": "Severini",     "position": "Midfielder", "team_code": "ITA" },
+  { "name": "Serturini",    "position": "Midfielder", "team_code": "ITA" },
+  { "name": "Goldoni",      "position": "Midfielder", "team_code": "ITA" },
+  { "name": "Caruso",       "position": "Midfielder", "team_code": "ITA" },
+  { "name": "Greggi",       "position": "Midfielder", "team_code": "ITA" },
+
+  { "name": "Cantore",      "position": "Forward",    "team_code": "ITA" },
+  { "name": "Piemonte",     "position": "Forward",    "team_code": "ITA" },
+  { "name": "Girelli",      "position": "Forward",    "team_code": "ITA" },
+  { "name": "Bonansea",     "position": "Forward",    "team_code": "ITA" },
+  { "name": "Beccari",      "position": "Forward",    "team_code": "ITA" },
+  { "name": "Cambiaghi",    "position": "Forward",    "team_code": "ITA" }
+]

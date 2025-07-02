@@ -1,0 +1,28 @@
+[
+  { "name": "Clark",           "position": "Goalkeeper", "team_code": "WAL" },
+  { "name": "Soper",           "position": "Goalkeeper", "team_code": "WAL" },
+  { "name": "Middleton-Patel", "position": "Goalkeeper", "team_code": "WAL" },
+
+  { "name": "Woodham",         "position": "Defender",   "team_code": "WAL" },
+  { "name": "Evans",           "position": "Defender",   "team_code": "WAL" },
+  { "name": "Roberts",         "position": "Defender",   "team_code": "WAL" },
+  { "name": "Green",           "position": "Defender",   "team_code": "WAL" },
+  { "name": "Ladd",            "position": "Defender",   "team_code": "WAL" },
+  { "name": "Estcourt",        "position": "Defender",   "team_code": "WAL" },
+  { "name": "Morgan",          "position": "Defender",   "team_code": "WAL" },
+  { "name": "Powell",          "position": "Defender",   "team_code": "WAL" },
+
+  { "name": "Ingle",           "position": "Midfielder", "team_code": "WAL" },
+  { "name": "Holland",         "position": "Midfielder", "team_code": "WAL" },
+  { "name": "James",           "position": "Midfielder", "team_code": "WAL" },
+  { "name": "Fishlock",        "position": "Midfielder", "team_code": "WAL" },
+  { "name": "Rowe",            "position": "Midfielder", "team_code": "WAL" },
+  { "name": "Joel",            "position": "Midfielder", "team_code": "WAL" },
+  { "name": "Griffiths",       "position": "Midfielder", "team_code": "WAL" },
+
+  { "name": "Barton",          "position": "Forward",    "team_code": "WAL" },
+  { "name": "Cain",            "position": "Forward",    "team_code": "WAL" },
+  { "name": "Hughes",          "position": "Forward",    "team_code": "WAL" },
+  { "name": "Jones",           "position": "Forward",    "team_code": "WAL" },
+  { "name": "Morgan",          "position": "Forward",    "team_code": "WAL" }
+]

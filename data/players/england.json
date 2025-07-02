@@ -1,0 +1,28 @@
+[
+  { "name": "Hampton",       "position": "Goalkeeper", "team_code": "ENG" },
+  { "name": "Moorhouse",     "position": "Goalkeeper", "team_code": "ENG" },
+  { "name": "Keating",       "position": "Goalkeeper", "team_code": "ENG" },
+
+  { "name": "Bronze",        "position": "Defender",   "team_code": "ENG" },
+  { "name": "Charles",       "position": "Defender",   "team_code": "ENG" },
+  { "name": "Greenwood",     "position": "Defender",   "team_code": "ENG" },
+  { "name": "Williamson",    "position": "Defender",   "team_code": "ENG" },
+  { "name": "Le Tissier",    "position": "Defender",   "team_code": "ENG" },
+  { "name": "Morgan",        "position": "Defender",   "team_code": "ENG" },
+  { "name": "Carter",        "position": "Defender",   "team_code": "ENG" },
+  { "name": "Wubben-Moy",    "position": "Defender",   "team_code": "ENG" },
+
+  { "name": "Walsh",         "position": "Midfielder", "team_code": "ENG" },
+  { "name": "Stanway",       "position": "Midfielder", "team_code": "ENG" },
+  { "name": "Toone",         "position": "Midfielder", "team_code": "ENG" },
+  { "name": "Clinton",       "position": "Midfielder", "team_code": "ENG" },
+
+  { "name": "James",         "position": "Forward",    "team_code": "ENG" },
+  { "name": "Mead",          "position": "Forward",    "team_code": "ENG" },
+  { "name": "Hemp",          "position": "Forward",    "team_code": "ENG" },
+  { "name": "Agyemang",      "position": "Forward",    "team_code": "ENG" },
+  { "name": "Kelly",         "position": "Forward",    "team_code": "ENG" },
+  { "name": "Beever-Jones",  "position": "Forward",    "team_code": "ENG" },
+  { "name": "Park",          "position": "Forward",    "team_code": "ENG" },
+  { "name": "Russo",         "position": "Forward",    "team_code": "ENG" }
+]

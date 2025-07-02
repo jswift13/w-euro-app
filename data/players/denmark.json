@@ -1,0 +1,28 @@
+[
+  { "name": "Østergaard",     "position": "Goalkeeper", "team_code": "DEN" },
+  { "name": "Larsen",         "position": "Goalkeeper", "team_code": "DEN" },
+  { "name": "Vingum",         "position": "Goalkeeper", "team_code": "DEN" },
+
+  { "name": "Thrige",         "position": "Defender",   "team_code": "DEN" },
+  { "name": "Ballisager",     "position": "Defender",   "team_code": "DEN" },
+  { "name": "Færge",          "position": "Defender",   "team_code": "DEN" },
+  { "name": "Obaze",          "position": "Defender",   "team_code": "DEN" },
+  { "name": "S. Troelsgaard", "position": "Defender",   "team_code": "DEN" },
+  { "name": "Veje",           "position": "Defender",   "team_code": "DEN" },
+  { "name": "S. Holmgaard",   "position": "Defender",   "team_code": "DEN" },
+
+  { "name": "K. Holmgaard",   "position": "Midfielder", "team_code": "DEN" },
+  { "name": "Snerle",         "position": "Midfielder", "team_code": "DEN" },
+  { "name": "Kühl",           "position": "Midfielder", "team_code": "DEN" },
+  { "name": "Hasbo",          "position": "Midfielder", "team_code": "DEN" },
+  { "name": "Bredgaard",      "position": "Midfielder", "team_code": "DEN" },
+  { "name": "Thøgersen",      "position": "Midfielder", "team_code": "DEN" },
+  { "name": "Madsen",         "position": "Midfielder", "team_code": "DEN" },
+  { "name": "Thomsen",        "position": "Midfielder", "team_code": "DEN" },
+
+  { "name": "Nadim",          "position": "Forward",    "team_code": "DEN" },
+  { "name": "Harder",         "position": "Forward",    "team_code": "DEN" },
+  { "name": "Bruun",          "position": "Forward",    "team_code": "DEN" },
+  { "name": "Vangsgaard",     "position": "Forward",    "team_code": "DEN" },
+  { "name": "Kramer",         "position": "Forward",    "team_code": "DEN" }
+]

@@ -1,0 +1,24 @@
+[
+  { "name": "Szemik",        "position": "Goalkeeper", "team_code": "POL" },
+  { "name": "Radkiewicz",    "position": "Goalkeeper", "team_code": "POL" },
+  { "name": "Seweryn",       "position": "Goalkeeper", "team_code": "POL" },
+
+  { "name": "Wiankowska",    "position": "Midfielder", "team_code": "POL" },
+  { "name": "Matysik",       "position": "Midfielder", "team_code": "POL" },
+  { "name": "Mesjasz",       "position": "Midfielder", "team_code": "POL" },
+  { "name": "Kamczyk",       "position": "Midfielder", "team_code": "POL" },
+  { "name": "Pawollek",      "position": "Midfielder", "team_code": "POL" },
+  { "name": "Szymczak",      "position": "Midfielder", "team_code": "POL" },
+  { "name": "Grabowska",     "position": "Midfielder", "team_code": "POL" },
+  { "name": "Kokosz",        "position": "Midfielder", "team_code": "POL" },
+  { "name": "Słowińska",     "position": "Midfielder", "team_code": "POL" },
+  { "name": "Krezyman",      "position": "Midfielder", "team_code": "POL" },
+  { "name": "Adamek",        "position": "Midfielder", "team_code": "POL" },
+  { "name": "Achcińska",     "position": "Midfielder", "team_code": "POL" },
+
+  { "name": "Pajor",         "position": "Forward",    "team_code": "POL" },
+  { "name": "Zawistowska",   "position": "Forward",    "team_code": "POL" },
+  { "name": "Jedlińska",     "position": "Forward",    "team_code": "POL" },
+  { "name": "Padilla",       "position": "Forward",    "team_code": "POL" },
+  { "name": "Tomasiak",      "position": "Forward",    "team_code": "POL" }
+]

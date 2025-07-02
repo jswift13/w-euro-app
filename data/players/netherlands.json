@@ -1,0 +1,28 @@
+[
+  { "name": "Van Domselaar",   "position": "Goalkeeper", "team_code": "NED" },
+  { "name": "Kop",             "position": "Goalkeeper", "team_code": "NED" },
+  { "name": "De Jong",         "position": "Goalkeeper", "team_code": "NED" },
+
+  { "name": "Wilms",           "position": "Defender",   "team_code": "NED" },
+  { "name": "Dijkstra",        "position": "Defender",   "team_code": "NED" },
+  { "name": "Buurman",         "position": "Defender",   "team_code": "NED" },
+  { "name": "Casparij",        "position": "Defender",   "team_code": "NED" },
+  { "name": "Janssen",         "position": "Defender",   "team_code": "NED" },
+  { "name": "Van der Zanden",  "position": "Defender",   "team_code": "NED" },
+
+  { "name": "Roord",           "position": "Midfielder", "team_code": "NED" },
+  { "name": "Spitse",          "position": "Midfielder", "team_code": "NED" },
+  { "name": "Van de Donk",     "position": "Midfielder", "team_code": "NED" },
+  { "name": "Groenen",         "position": "Midfielder", "team_code": "NED" },
+  { "name": "Pelova",          "position": "Midfielder", "team_code": "NED" },
+  { "name": "Kaptein",         "position": "Midfielder", "team_code": "NED" },
+  { "name": "Egurrola",        "position": "Midfielder", "team_code": "NED" },
+
+  { "name": "Leuchter",        "position": "Forward",    "team_code": "NED" },
+  { "name": "Beerensteyn",     "position": "Forward",    "team_code": "NED" },
+  { "name": "Miedema",         "position": "Forward",    "team_code": "NED" },
+  { "name": "Brugts",          "position": "Forward",    "team_code": "NED" },
+  { "name": "Grant",           "position": "Forward",    "team_code": "NED" },
+  { "name": "R. Jansen",       "position": "Forward",    "team_code": "NED" },
+  { "name": "Snoeijs",         "position": "Forward",    "team_code": "NED" }
+]

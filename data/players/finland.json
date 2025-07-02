@@ -1,0 +1,28 @@
+[
+  { "name": "Koivunen",    "position": "Goalkeeper", "team_code": "FIN" },
+  { "name": "Tamminen",    "position": "Goalkeeper", "team_code": "FIN" },
+  { "name": "Korpela",     "position": "Goalkeeper", "team_code": "FIN" },
+
+  { "name": "Nyström",     "position": "Defender",   "team_code": "FIN" },
+  { "name": "E. Koivisto", "position": "Defender",   "team_code": "FIN" },
+  { "name": "Tynnilä",     "position": "Defender",   "team_code": "FIN" },
+  { "name": "E. Siren",    "position": "Defender",   "team_code": "FIN" },
+  { "name": "Kuikka",      "position": "Defender",   "team_code": "FIN" },
+  { "name": "Lehtola",     "position": "Defender",   "team_code": "FIN" },
+  { "name": "Roth",        "position": "Defender",   "team_code": "FIN" },
+
+  { "name": "V. Koivisto", "position": "Midfielder", "team_code": "FIN" },
+  { "name": "Öling",       "position": "Midfielder", "team_code": "FIN" },
+  { "name": "Ahtinen",     "position": "Midfielder", "team_code": "FIN" },
+  { "name": "Kosola",      "position": "Midfielder", "team_code": "FIN" },
+  { "name": "Heroum",      "position": "Midfielder", "team_code": "FIN" },
+  { "name": "O. Siren",    "position": "Midfielder", "team_code": "FIN" },
+  { "name": "Summanen",    "position": "Midfielder", "team_code": "FIN" },
+
+  { "name": "Engman",      "position": "Forward",    "team_code": "FIN" },
+  { "name": "Kollanen",    "position": "Forward",    "team_code": "FIN" },
+  { "name": "Franssi",     "position": "Forward",    "team_code": "FIN" },
+  { "name": "Sällström",   "position": "Forward",    "team_code": "FIN" },
+  { "name": "Sevenius",    "position": "Forward",    "team_code": "FIN" },
+  { "name": "Rantala",     "position": "Forward",    "team_code": "FIN" }
+]

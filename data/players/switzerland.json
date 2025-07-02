@@ -1,0 +1,28 @@
+[
+  { "name": "Herzog",         "position": "Goalkeeper", "team_code": "SUI" },
+  { "name": "Peng",           "position": "Goalkeeper", "team_code": "SUI" },
+  { "name": "Böhi",           "position": "Goalkeeper", "team_code": "SUI" },
+
+  { "name": "Stierli",        "position": "Defender",   "team_code": "SUI" },
+  { "name": "Maritz",         "position": "Defender",   "team_code": "SUI" },
+  { "name": "Riesen",         "position": "Defender",   "team_code": "SUI" },
+  { "name": "Ballesté",       "position": "Defender",   "team_code": "SUI" },
+  { "name": "Calligaris",     "position": "Defender",   "team_code": "SUI" },
+
+  { "name": "Ivelj",          "position": "Midfielder", "team_code": "SUI" },
+  { "name": "Xhemaili",       "position": "Midfielder", "team_code": "SUI" },
+  { "name": "Sow",            "position": "Midfielder", "team_code": "SUI" },
+  { "name": "Wälti",          "position": "Midfielder", "team_code": "SUI" },
+  { "name": "Vallotto",       "position": "Midfielder", "team_code": "SUI" },
+  { "name": "Mauron",         "position": "Midfielder", "team_code": "SUI" },
+
+  { "name": "Wandeler",       "position": "Forward",    "team_code": "SUI" },
+  { "name": "Reuteler",       "position": "Forward",    "team_code": "SUI" },
+  { "name": "Crnogorčević",   "position": "Forward",    "team_code": "SUI" },
+  { "name": "Terchoun",       "position": "Forward",    "team_code": "SUI" },
+  { "name": "Fölmli",         "position": "Forward",    "team_code": "SUI" },
+  { "name": "Beney",          "position": "Forward",    "team_code": "SUI" },
+  { "name": "Pilgrim",        "position": "Forward",    "team_code": "SUI" },
+  { "name": "Schertenleib",   "position": "Forward",    "team_code": "SUI" },
+  { "name": "Lehmann",        "position": "Forward",    "team_code": "SUI" }
+]

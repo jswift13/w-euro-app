@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h1 class="title">About the App</h1>
+  <p>
+    Women’s Euro Predictions 2025 is a simple form-based pick’em: 
+    no logins, no points tracked here. Fill in your scores, pick your 
+    Player of the Matchday and favourite team, and screenshot your ticket.
+
+    This is a fan-driven, non-profit web app.
+    All data is publicly available and we do not collect personal information.
+
+    Built with ❤️.
+  </p>
+
+    <div class="matchday-links">
+    <a href="{% url 'predictions:home' %}" class="nav-button button-home">Return to Prediction Page</a>
+  </div>
+
+{% endblock %}

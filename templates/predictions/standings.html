@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h1>Current Standings</h1>
+
+  <h2>Most-Picked Favorite Teams</h2>
+  <ul>
+    {% for row in favs %}
+      <li>{{ row.favorite_team__name }}</li>
+    {% empty %}
+      <li>No data yet.</li>
+    {% endfor %}
+  </ul>
+
+  <h2>Most-Picked Player of the Matchday</h2>
+  <ul>
+    {% for row in pots %}
+      <li>{{ row.potm__name }}</li>
+    {% empty %}
+      <li>No data yet.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

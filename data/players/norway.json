@@ -1,0 +1,28 @@
+[
+  { "name": "Fiskerstrand",   "position": "Goalkeeper", "team_code": "NOR" },
+  { "name": "Panengstuen",    "position": "Goalkeeper", "team_code": "NOR" },
+  { "name": "Mikalsen",       "position": "Goalkeeper", "team_code": "NOR" },
+
+  { "name": "Bratberg Lund",  "position": "Defender",   "team_code": "NOR" },
+  { "name": "Woldvik",        "position": "Defender",   "team_code": "NOR" },
+  { "name": "T. Hansen",      "position": "Defender",   "team_code": "NOR" },
+  { "name": "Østenstad",      "position": "Defender",   "team_code": "NOR" },
+  { "name": "Mjelde",         "position": "Defender",   "team_code": "NOR" },
+  { "name": "Bjelde",         "position": "Defender",   "team_code": "NOR" },
+  { "name": "Harviken",       "position": "Defender",   "team_code": "NOR" },
+
+  { "name": "Engen",          "position": "Midfielder", "team_code": "NOR" },
+  { "name": "Bøe Risa",       "position": "Midfielder", "team_code": "NOR" },
+  { "name": "Sævik",          "position": "Midfielder", "team_code": "NOR" },
+  { "name": "Reiten",         "position": "Midfielder", "team_code": "NOR" },
+  { "name": "Kielland",       "position": "Midfielder", "team_code": "NOR" },
+  { "name": "Maanum",         "position": "Midfielder", "team_code": "NOR" },
+  { "name": "Naalsund",       "position": "Midfielder", "team_code": "NOR" },
+
+  { "name": "Graham Hansen",  "position": "Forward",    "team_code": "NOR" },
+  { "name": "Hegerberg",      "position": "Forward",    "team_code": "NOR" },
+  { "name": "Ildhusøy",       "position": "Forward",    "team_code": "NOR" },
+  { "name": "Terland",        "position": "Forward",    "team_code": "NOR" },
+  { "name": "Jensen",         "position": "Forward",    "team_code": "NOR" },
+  { "name": "Gaupset",        "position": "Forward",    "team_code": "NOR" }
+]

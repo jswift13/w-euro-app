@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Women’s Euro Predictions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="{% static 'predictions/css/main.css' %}">
+</head>
+<body>
+
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer container">
+    w-euro app
+  </footer>
+
+  <script src="{% static 'predictions/js/form-navigation.js' %}"></script>
+  <script src="{% static 'predictions/js/countdown.js' %}"></script>
+</body>
+</html>

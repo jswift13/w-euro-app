@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- reuse the in-page nav you have on prediction_form.html -->
+  <div class="matchday-links">
+    <a href="{% url 'predictions:home' %}" class="nav-button button-home">Return to Prediction Page</a>
+    <a href="{% url 'predictions:about'     %}" class="nav-button">About the App</a>
+  </div>
+  <div class="instructions"><h4 class="italic thin">Take a screenshot of your predictions and compare your results with friends!</h3></div>
+  <div class="ticket-scale">
+  <h1 class="title">MY 2025 WOMEN'S EURO PREDICTIONS</h1>
+  <h2 class="matchday-name">{{ prediction.matchday.name }}</h2>
+
+  <!-- Section 2: Match Cards with static scores -->
+  <div class="grid-2 section2">
+    {% for pick in prediction.picks.all %}
+      <div class="card match-card">
+        <div class="match-info">
+          <span class="match-day">{{ pick.match.day_of_week }}, {{ pick.match.kickoff_time|date:"M j - H:i" }}</span>
+          <span class="match-venue">{{ pick.match.venue }}</span>
+        </div>
+        <div class="teams">
+          <div class="team home">
+            <img src="{% static 'flags/' %}{{ pick.match.home.fifa_code }}.png"
+                 alt="{{ pick.match.home.name }} flag" class="team-flag">
+            <span class="team-code">{{ pick.match.home.fifa_code }}</span>
+          </div>
+          <span class="score-separator">–</span>
+          <div class="team away">
+            <img src="{% static 'flags/' %}{{ pick.match.away.fifa_code }}.png"
+                 alt="{{ pick.match.away.name }} flag" class="team-flag">
+            <span class="team-code">{{ pick.match.away.fifa_code }}</span>
+          </div>
+        </div>
+        <div class="score-static">
+          <span class="score-number">{{ pick.predicted_home_score }}</span>
+          <span class="score-separator">–</span>
+          <span class="score-number">{{ pick.predicted_away_score }}</span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+<!-- Section 1: POTM & Favorite stacked, and Calculate Your Score -->
+  <div class="grid-2 section1">
+    <!-- left column: two stacked cards -->
+    <div class="form-cards confirmation">
+      <div class="card potm-card">
+        <h3>Player of the Matchday</h3>
+        <p class="potm-name">{{ prediction.potm.name }} ({{ prediction.potm.team.fifa_code }})</p>
+      </div>
+      <div class="card favorite-card">
+        <h3>My Favorite Team</h3>
+        <div class="favorite-team">
+          <img
+            src="{% static 'flags/' %}{{ prediction.favorite_team.fifa_code }}.png"
+            alt="{{ prediction.favorite_team.name }} flag"
+            class="team-flag"
+          >
+          <span class="team-code">{{ prediction.favorite_team.name }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- right column: one pink card -->
+    <div class="card score-card">
+      <h3>CALCULATE YOUR SCORE</h3>
+        <ul class="score-instructions">
+            <li class="italic">For each fixture:</li>
+            <li>Exact score: +3 pts</li>
+            <li>Winner/draw: +1 pt</li>
+        </ul>
+        <ul class="score-instructions">
+            <li>For the entire matchday:</li>
+            <li>All correct: +30 pts</li>
+        </ul>
+    </div>
+    </div>   
+  </div>
+{% endblock %}

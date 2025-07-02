@@ -1,0 +1,28 @@
+[
+  { "name": "Rúnarsdóttir",       "position": "Goalkeeper", "team_code": "ISL" },
+  { "name": "Ívarsdóttir",        "position": "Goalkeeper", "team_code": "ISL" },
+  { "name": "Birkisdóttir",       "position": "Goalkeeper", "team_code": "ISL" },
+
+  { "name": "Viggósdóttir",       "position": "Defender",   "team_code": "ISL" },
+  { "name": "I. Sigurðardóttir",  "position": "Defender",   "team_code": "ISL" },
+  { "name": "Anasi",              "position": "Defender",   "team_code": "ISL" },
+  { "name": "Gudr. Arnardóttir",  "position": "Defender",   "team_code": "ISL" },
+  { "name": "Gudn. Árnadóttir",   "position": "Defender",   "team_code": "ISL" },
+  { "name": "Halldórsdóttir",     "position": "Defender",   "team_code": "ISL" },
+
+  { "name": "B. Ágústsdóttir",    "position": "Midfielder", "team_code": "ISL" },
+  { "name": "Heiðarsdóttir",      "position": "Midfielder", "team_code": "ISL" },
+  { "name": "Vilhjálmsdóttir",    "position": "Midfielder", "team_code": "ISL" },
+  { "name": "Jóhannsdóttir",      "position": "Midfielder", "team_code": "ISL" },
+  { "name": "Brynjarsdóttir",     "position": "Midfielder", "team_code": "ISL" },
+  { "name": "K. Tryggvadóttir",   "position": "Midfielder", "team_code": "ISL" },
+  { "name": "Antonsdóttir",       "position": "Midfielder", "team_code": "ISL" },
+  { "name": "Gunnlaugsdóttir",    "position": "Midfielder", "team_code": "ISL" },
+
+  { "name": "Jessen",             "position": "Forward",    "team_code": "ISL" },
+  { "name": "Zomers",             "position": "Forward",    "team_code": "ISL" },
+  { "name": "H. Eiríksdóttir",    "position": "Forward",    "team_code": "ISL" },
+  { "name": "Albertsdóttir",      "position": "Forward",    "team_code": "ISL" },
+  { "name": "Andradóttir",        "position": "Forward",    "team_code": "ISL" },
+  { "name": "S. Jónsdóttir",      "position": "Forward",    "team_code": "ISL" }
+]
