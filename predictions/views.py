@@ -130,6 +130,7 @@ def create_prediction(request, matchday_id):
         'formset':   pick_formset,
         'pairs':     pairs,
         'first_kickoff': first_kickoff,
+        'now': timezone.now(),
         'existing': existing,   # to let the template show “Edit your picks”
     })
 

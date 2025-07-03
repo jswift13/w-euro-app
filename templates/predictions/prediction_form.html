@@ -7,7 +7,7 @@
     <a href="{% url 'predictions:about'     %}" class="nav-button">About the App</a>
   </div>
 
-  <h1 class="title">2025 WOMEN'S EURO PREDICTIONS</h1>
+  <h1 class="title">WOMEN'S EURO 2025 PREDICTIONS</h1>
   <div class="matchday-links">
   {% for md in matchdays %}
     <p class="link"><a href="{% url 'predictions:create' md.id %}"
@@ -50,8 +50,19 @@
           {{ form.potm_team.errors }}
         </div>
         <div class="card">
-          {{ form.potm.label_tag }}
-          {{ form.potm }}
+          <label for="id_potm">{{ form.potm.label }}</label>
+          <select name="{{ form.potm.html_name }}" id="id_potm">
+            <option value="">{{ form.potm.empty_label }}</option>
+            {% for player in form.fields.potm.queryset %}
+              <option
+                value="{{ player.pk }}"
+                data-team="{{ player.team.pk }}"
+                {% if form.potm.value|stringformat:"s" == player.pk|stringformat:"s" %}selected{% endif %}
+              >
+                {{ player.name }} ({{ player.team.fifa_code }})
+              </option>
+            {% endfor %}
+          </select>
           {{ form.potm.errors }}
         </div>
         <div class="card">
@@ -89,9 +100,20 @@
             </div>
           </div>
           <div class="inputs">
-            {{ pick_form.predicted_home_score }}
-            {{ pick_form.predicted_away_score }}
-          </div>
+              {% if match.score_home is not None and match.score_away is not None %}
+                {# Match finished: show the real result #}
+                <span class="score-number italic">{{ match.score_home }}</span>
+                <span class="score-separator italic">–</span>
+                <span class="score-number italic">{{ match.score_away }}</span>
+              {% elif now >= match.kickoff_time %}
+                {# Kickoff passed but no score yet: in progress #}
+                <span class="in-progress italic">In progress</span>
+              {% else %}
+                {# Still before kickoff: show prediction inputs #}
+                {{ pick_form.predicted_home_score }}
+                {{ pick_form.predicted_away_score }}
+              {% endif %}
+            </div>
         </div>
           {% empty %}
     <h1 class="italic">No fixtures provided for this round yet. Come back another time!</h1>

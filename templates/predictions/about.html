@@ -1,19 +1,41 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
-  <h1 class="title">About the App</h1>
-  <p>
-    Women’s Euro Predictions 2025 is a simple form-based pick’em: 
-    no logins, no points tracked here. Fill in your scores, pick your 
-    Player of the Matchday and favourite team, and screenshot your ticket.
+  <h1 class="title">About Women’s Euro 2025 Predictions</h1>
 
-    This is a fan-driven, non-profit web app.
-    All data is publicly available and we do not collect personal information.
-
-    Built with ❤️.
-  </p>
-
-    <div class="matchday-links">
-    <a href="{% url 'predictions:home' %}" class="nav-button button-home">Return to Prediction Page</a>
+  <div class="card copy-card">
+    <p>
+      This is a free, fan-driven web app where you can submit matchday score predictions,
+      pick a <em>Player of the Matchday</em>, choose your favorite national team,
+      and create a shareable ticket. No logins, no ads, no personal data collected.
+    </p>
   </div>
 
+  <div class="grid-2 section1 about-section">
+    <div class="card">
+      <h3>How It Works</h3>
+      <p>Predict the exact score for each match</p>
+      <p>Select your Player of the Matchday</p>
+      <p>Pick your favorite team</p>
+      <p>Screenshot your ticket and challenge friends</p>
+    </div>
+
+    <div class="card">
+      <h3>Data &amp; Privacy</h3>
+      <p>Fixtures, dates &amp; venues from FBRef</p>
+      <p>Team logos &amp; player names from UEFA official site</p>
+      <p>No registration or personal data storage</p>
+      <p>Non-profit, ad-free, built by volunteers</p>
+    </div>
+  </div>
+
+  <div class="card copy-card">
+    <p class="built-with">Built with ❤️ by a fan of the women’s game.</p>
+  </div>
+
+  <div class="matchday-links">
+    <a href="{% url 'predictions:home' %}" class="nav-button button-home">
+      Return to Predictions
+    </a>
+  </div>
 {% endblock %}

@@ -63,6 +63,8 @@ display: inline-block;
   text-align: center;
   margin-bottom: 8px;
 }
+
+
 .matchday-name {
   font-size: 1.1rem;
   text-align: center;
@@ -327,6 +329,7 @@ display: inline-block;
   font-weight: 700;
 }
 
+
 /* pink Calculate Your Score card stays as you had it */
 .score-card {
   background: #EB94B0 !important;
@@ -406,3 +409,8 @@ display: inline-block;
     font-size: 0.5rem;
 }
 
+
+/* Center the "Built with ❤️" line */
+.built-with {
+  display: inline-block; /* shrink-wrap, so centering works */
+}
