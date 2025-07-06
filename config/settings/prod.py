@@ -20,7 +20,9 @@ ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['your-app-name.onrender.com']
 # ----------------------
 
 # Render provides DATABASE_URL in its env
-DATABASES['default'] = env.db('DATABASE_URL', default=DATABASES['default'])
+db_url = env('DATABASE_URL', default=None)
+if db_url:
+    DATABASES['default'] = env.db_url('DATABASE_URL')
 
 # ----------------------
 # STATIC FILES (WhiteNoise)
