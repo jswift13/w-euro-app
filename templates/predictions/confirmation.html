@@ -2,15 +2,19 @@
 {% load static %}
 {% block content %}
   <!-- reuse the in-page nav you have on prediction_form.html -->
-  <div class="matchday-links">
+  <div class="matchday-links confirm">
     <a href="{% url 'predictions:home' %}" class="nav-button button-home">Return to Prediction Page</a>
     <a href="{% url 'predictions:about'     %}" class="nav-button">About the App</a>
   </div>
   <div class="instructions"><h4 class="italic thin">Take a screenshot of your predictions and compare your results with friends!</h3></div>
   <div class="ticket-scale">
+  <div class="header-container">
+  <img src="/static/logo/brand_logo.png" alt="Logo" class="header-logo">
+  <div class="title-links-container">
   <h1 class="title">WOMEN'S EURO 2025 PREDICTIONS</h1>
   <h2 class="matchday-name">{{ prediction.matchday.name }}</h2>
-
+  </div>
+  </div>
   <!-- Section 2: Match Cards with static scores -->
   <div class="grid-2 section2">
     {% for pick in prediction.picks.all %}

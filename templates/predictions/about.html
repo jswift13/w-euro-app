@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-  <h1 class="title">About Women’s Euro 2025 Predictions</h1>
+  <h1 class="title about">About Women’s Euro 2025 Predictions</h1>
 
   <div class="card copy-card">
     <p>
@@ -23,9 +23,9 @@
     <div class="card">
       <h3>Data &amp; Privacy</h3>
       <p>Fixtures, dates &amp; venues from FBRef</p>
-      <p>Team logos &amp; player names from UEFA official site</p>
+      <p>Team flags, official logo &amp; player names from UEFA official site</p>
       <p>No registration or personal data storage</p>
-      <p>Non-profit, ad-free, built by volunteers</p>
+      <p>Non-profit, ad-free, for learning purposes</p>
     </div>
   </div>
 
@@ -34,7 +34,7 @@
   </div>
 
   <div class="matchday-links">
-    <a href="{% url 'predictions:home' %}" class="nav-button button-home">
+    <a href="{% url 'predictions:home' %}" class="nav-button button-home about">
       Return to Predictions
     </a>
   </div>

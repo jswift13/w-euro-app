@@ -66,22 +66,26 @@ class MatchPickForm(forms.Form):
         label='Home Score',
         min_value=0,
         required=False,
+        initial=0,
         widget=forms.TextInput(attrs={
             'inputmode': 'numeric',
             'pattern': '[0-9]*',
             'maxlength': '2',
-            'placeholder': '0'
+            'placeholder': '0',
+            'value': '0'
         })
     )
     predicted_away_score = forms.IntegerField(
         label='Away Score',
         min_value=0,
         required=False,
+        initial=0,
         widget=forms.TextInput(attrs={
             'inputmode': 'numeric',
             'pattern': '[0-9]*',
             'maxlength': '2',
-            'placeholder': '0'
+            'placeholder': '0',
+            'value': '0'
         })
     )
 

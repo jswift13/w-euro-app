@@ -9,9 +9,9 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background: #E0E7EF;
-  color: #000000;
-  background-image: url("/static/background/bg-image.png");
+  background: #33004d;
+  color: #ffffff;
+  /* ─── background-image: url("/static/background/bg-image.png"); ─── */
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -52,24 +52,35 @@ select:focus {
   box-shadow: 4px 4px 0 rgba(0,0,0,1)
 }
 
-.nav-button .button-home {
+
+
+.nav-button.button-home.about {
 display: inline-block;
 }
-
+.matchday-links.about-button {
+  justify-self: center !important;
+}
 /* ─── TITLES ─── */
 .title {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 700;
-  text-align: center;
-  margin-bottom: 8px;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 16px;
 }
+
+.title.about {
+    margin-top: 24px;
+}
+
 
 
 .matchday-name {
-  font-size: 1.1rem;
-  text-align: center;
-  margin-bottom: 16px;
-  font-weight: 500;
+   font-size: 1.1rem;
+   text-align: center;
+   margin-top: 8px;
+   margin-bottom: 8px;
+   font-weight: 500;
 }
 
 /* ─── TWO-COLUMN GRID ─── */
@@ -91,13 +102,18 @@ display: inline-block;
   background: #7CD5F2;
   color: #000;
   padding: 10px;
-  border-radius: 0px;
-  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 1px solid #bde6f3;
 }
 .section1 .how-to-play h3 {
   margin-bottom: 8px;
   font-weight: 700;
+  font-size: 1.2rem;
   text-align: center;
+}
+
+.section .how-to-play p {
+    font-size: 1.2rem;
 }
 
 .form-cards {
@@ -115,8 +131,8 @@ display: inline-block;
 
 /* ─── MATCH CARDS ─── */
 .match-card {
-  border: 0px solid #ccc;
-  border-radius: 0px;
+  border: 1px solid #240435;
+  border-radius: 5px;
   overflow: hidden;
   /* remove default shadow */
   box-shadow: none;
@@ -124,7 +140,7 @@ display: inline-block;
 
 /* top half: day & venue */
 .match-card .match-info {
-  background: #E7E7E7;
+  background: #240435;
   padding: 8px;
   font-size: 0.9rem;
   display: flex;
@@ -138,7 +154,7 @@ display: inline-block;
 /* bottom half: teams & inputs */
 .match-card .teams,
 .match-card .inputs {
-  background: #F4F4F4;
+  background: #30143f;
   padding: 6px;
 }
 
@@ -184,7 +200,8 @@ display: inline-block;
   text-align: center;
   font-size: 1rem;
   border: none;
-  border-radius: 0;
+  border-radius: 3px;
+  background-color: #240435;
 }
 
 /* ─── SUBMIT BUTTON ─── */
@@ -197,8 +214,8 @@ display: inline-block;
   color: #000;
   font-size: 1.1rem;
   font-weight: 400;
-  border: 1px solid #000;
-  border-radius: 0;
+  border: 1px solid #bde6f3;
+  border-radius: 3px;
   cursor: pointer;
   box-shadow: 4px 4px 0 rgba(0,0,0,1);
 }
@@ -214,7 +231,7 @@ display: inline-block;
 }
 
 .alert {
-    margin-bottom: 6px;
+    margin-bottom: 16px;
 }
 /* ─── Custom dropdown styling ─── */
 .dropdown-cards .card {
@@ -252,9 +269,8 @@ display: inline-block;
 }
 
 
-/* Static score row under each match */
 .score-static {
-  background: #F4F4F4;
+  background: #240435 !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,6 +290,12 @@ display: inline-block;
 .italic {
     font-style: italic;
     list-style: none;
+}
+
+.italic.thin {
+  margin-top: 24px;
+  margin-left:55px;
+  margin-right: 42px;
 }
 
 
@@ -332,7 +354,8 @@ display: inline-block;
 
 /* pink Calculate Your Score card stays as you had it */
 .score-card {
-  background: #EB94B0 !important;
+  background:rgb(255 114 141) !important;
+  color: black !important;
   text-align: center;
   padding: 16px;
 }
@@ -386,31 +409,83 @@ display: inline-block;
 .matchday-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
+  justify-content: flex-start;
+  gap: 6px;
   margin-bottom: 16px;
+
+}
+
+.matchday-links.matchdays {
+    padding-right: 0px;
+    justify-self: center;
+    justify-content: space-between;
+    /* gap: 0px !important; */
+    margin: auto;
 }
 
 
 .matchday-links a {
   padding: 6px 12px;
-  background: #fff;
-  border:1px solid #000;
+  background: #7cd5f2;
   text-decoration: none;
   justify-content: center;
   font-size: 0.75rem;
+  border: 1px solid #bde6f3;
+  border-radius: 3px;
+  margin-top: 24px;
 }
 .matchday-links a.active {
   background: #7CD5F2;
 
 }
 
+.matchday-links .link {
+    margin: 8px;
+}
+
+.matchday-links.confirm {
+  justify-self: center;
+}
+
+
+
 .link {
     font-size: 0.5rem;
 }
 
+.card {
+
+}
 
 /* Center the "Built with ❤️" line */
 .built-with {
-  display: inline-block; /* shrink-wrap, so centering works */
+  justify-self: center;
+  margin-top: 42px !important;
+  margin: 24px;
 }
+
+.copy-card {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px; /* space between image and text */
+    margin-bottom: 20px; /* spacing under the header */
+}
+
+.header-logo {
+    width:55px; /* adjust as desired */
+    height: auto;
+    margin-left: 10px;
+}
+
+.title-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* aligns items to the left */
+}
+
+

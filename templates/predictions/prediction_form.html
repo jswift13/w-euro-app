@@ -1,21 +1,36 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load tz %}
 {% block content %}
   <!-- Nav for Prediction Page only -->
 
-  <div class="matchday-links">
+  <div class="matchday-links about-button">
     <a href="{% url 'predictions:about'     %}" class="nav-button">About the App</a>
   </div>
-
-  <h1 class="title">WOMEN'S EURO 2025 PREDICTIONS</h1>
-  <div class="matchday-links">
-  {% for md in matchdays %}
-    <p class="link"><a href="{% url 'predictions:create' md.id %}"
-       class="{% if md.id == matchday.id %}active{% endif %}">
-      {{ md.name }}
-    </a></p>
-  {% endfor %}
+<div class="header-container">
+    <img src="/static/logo/brand_logo.png" alt="Logo" class="header-logo">
+  <div class="title-links-container">
+      <h1 class="title">WOMEN'S EURO 2025 PREDICTIONS</h1>
+  </div>
 </div>
+          <div class="matchday-links matchdays">
+        {% for md in matchdays %}
+          {# sort this MD’s matches by kickoff, then pull out the last one #}
+          {% with last_match=md.matches.all|dictsort:"kickoff_time"|last %}
+            {# only render if that last match is still in the future #}
+            {% if last_match and last_match.kickoff_time > now %}
+              <p class="link">
+                <a
+                  href="{% url 'predictions:create' md.id %}"
+                  class="{% if md.id == matchday.id %}active{% endif %}"
+                >
+                  {{ md.name }}
+                </a>
+              </p>
+            {% endif %}
+          {% endwith %}
+        {% endfor %}
+        </div>
           <h2 class="matchday-name">
     {{ matchday.name }}
     {% if first_kickoff %}
@@ -23,7 +38,7 @@
     {% endif %}
   </h2>
 {% if existing %}
-  <div class="alert">
+  <div class="alert italic">
     You already submitted picks for this Matchday. You can edit them below:
   </div>
 {% endif %}
